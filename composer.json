@@ -1,0 +1,22 @@
+{
+  "require": {
+    "phpmailer/phpmailer": "^6.9.1",
+    "picqer/php-barcode-generator": "^2.4.0",
+    "dompdf/dompdf": "^2.0.4",
+    "bacon/bacon-qr-code": "^2.0.7",
+    "firebase/php-jwt": "^6.10.0",
+    "linfo/linfo": "^4.0",
+    "adianti/plugins": "dev-master",
+    "adianti/pdfdesigner": "dev-master",
+    "pablodalloglio/ole": "dev-master",
+    "pablodalloglio/spreadsheet_excel_writer": "dev-master",
+    "pablodalloglio/fpdf": "dev-master",
+    "pablodalloglio/phprtflite": "dev-master",
+    "madbuild3r/pquery": "dev-master"
+  },
+  "config": {
+    "preferred-install": {
+      "*": "dist"
+    }
+  }
+}
