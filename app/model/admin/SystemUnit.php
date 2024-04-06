@@ -1,13 +1,21 @@
 <?php
-
+/**
+ * SystemUnit
+ *
+ * @version    1.0
+ * @package    model
+ * @subpackage admin
+ * @author     Pablo Dall'Oglio
+ * @copyright  Copyright (c) 2006 Adianti Solutions Ltd. (http://www.adianti.com.br)
+ * @license    http://www.adianti.com.br/framework-license
+ */
 class SystemUnit extends TRecord
 {
-    const TABLENAME  = 'system_unit';
-    const PRIMARYKEY = 'id';
-    const IDPOLICY   =  'max'; // {max, serial}
-
+    const TABLENAME = 'system_unit';
+    const PRIMARYKEY= 'id';
+    const IDPOLICY =  'max'; // {max, serial}
     
-
+    
     /**
      * Constructor method
      */
@@ -16,9 +24,5 @@ class SystemUnit extends TRecord
         parent::__construct($id, $callObjectLoad);
         parent::addAttribute('name');
         parent::addAttribute('connection_name');
-            
     }
-
-    
 }
-

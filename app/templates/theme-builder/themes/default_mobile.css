@@ -1,0 +1,22 @@
+:root {
+--login-panel-max-height: 550px;
+--panel-row-margin-bottom: 7px;
+--tab-active-border-color: ;
+--tab-active-background: ;
+--tab-active-color: ;
+--tab-border-color: transparent;
+--tab-background: ;
+--tab-color: ;
+--tab-font-size: ;
+--tab-border-radius: 8px;
+--tab-font-weight: normal;
+--table-header-font-size: ;
+--table-header-font-weight: normal;
+--table-header-background: transparent;
+--table-header-border-color: transparent;
+--table-header-padding-vertical: ;
+--field-check-color: ;
+--field-disabled-background: #DFE4ED;
+--field-disabled-border: #DFE4ED;
+--field-disabled-text-color: ;
+}

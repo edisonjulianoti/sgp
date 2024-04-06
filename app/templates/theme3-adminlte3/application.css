@@ -1636,39 +1636,34 @@ ul.nav.nav-pills.nav-stacked li {
 }
 
 .card.panel[widget='bootstrapformbuilder'] > .panel-heading, #chart-box > .panel-heading{
-    color: #333 !important;
-background-color: #f5f5f5 !important;
-    border-top: 2px solid #f5f5f5;
+    
+    border-top: 2px solid ;
 }
 
 .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
-    border-top: 3px solid #f5f5f5 !important;
+    border-top: 3px solid  !important;
 }
 
 @media (min-width: 767px) {
     div.builder-menu .dropdown.show {
-        background-color: #20c997 !important;
-                color:#fff !important;
+        
     } 
 }
 
 @media (max-width: 767px) {
     
     div.builder-menu .dropdown.show>a {
-        background-color: #20c997 !important;
-                color:#fff !important;
+        
     }
 }
 
 .steps li.active .step-number, .steps li.active:before, .steps li.complete .step-number, .steps li.complete:before {
-    background-color: #20c997 !important;
-                color:#fff !important;
+    
 }
 
 #login-wrapper .card > .panel-heading {
-    background-color: #00a65a !important; 
-color: #fff !important;   
-    border-top: 2px solid #00a65a;
+       
+    border-top: 2px solid ;
 }
 .card.panel[widget='bootstrapformbuilder'] .panel-title, #chart-box > .panel-heading{
     font-weight: 400;
@@ -2000,4 +1995,30 @@ border-color: #d58512;
 
 
 
+.builder-template-layout:not(.sidebar-collapse) .main-sidebar .brand-link {
+    background-image: url('../../../app/images/builderLayoutLogo.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    color: transparent;
+}
+.brand-logo {
+    display: none;
+}
 
+.builder-template-layout.sidebar-collapse .main-sidebar .brand-link {
+    background: url('../../../app/images/builderLayoutIcon.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: transparent;
+    border: transparent;
+    width: 42px !important;
+    height: 42px !important;
+    margin-top: 7px;
+    margin-left: 15px;
+}
+
+.brand-logo {
+    display: none;
+  }

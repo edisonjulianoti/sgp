@@ -136,10 +136,3 @@ RewriteRule ^contacts/([A-Za-z0-9]*)$ rest.php?class=ContactRestService&method=h
 RewriteRule ^contacts/([A-Za-z-_0-9]*)/([A-Za-z-_0-9]*)$ rest.php?class=ContactRestService&method=$2&id=$1&%{QUERY_STRING} [NC]
 RewriteRule ^contacts$ rest.php?class=ContactRestService&method=handle&%{QUERY_STRING} [NC]
 
-
-#Rotas geradas pelo Builder
-
-RewriteRule ^agendamento/([A-Za-z0-9]*)$ rest.php?class=AgendamentoRestService&method=handle&id=$1&%{QUERY_STRING} [NC]
-RewriteRule ^agendamento/([A-Za-z-_0-9]*)/([A-Za-z-_0-9]*)$ rest.php?class=AgendamentoRestService&method=$2&id=$1&%{QUERY_STRING} [NC]
-RewriteRule ^agendamento$ rest.php?class=AgendamentoRestService&method=handle&%{QUERY_STRING} [NC]
-

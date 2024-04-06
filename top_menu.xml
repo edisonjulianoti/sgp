@@ -1,3 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
 <menu>
-    {menu}
+  <menuitem label="Links">
+    <icon>fas:link fa-fw </icon>
+    <action>LinkUtilControllerView#method=onShow</action>
+    <menu>  
+                </menu>
+  </menuitem>
+  <menuitem label="Notícias">
+    <icon>far:newspaper fa-fw </icon>
+    <action>NoticiaControllerView#method=onShow</action>
+    <menu>  
+                </menu>
+  </menuitem>
+  <menuitem label="Base de Conhecimento">
+    <icon>far:question-circle fa-fw </icon>
+    <action>PaginaConhecimentoCardList#method=onShow</action>
+    <menu>  
+                </menu>
+  </menuitem>
+  <menuitem label="Configurações">
+    <icon>fas:cog fa-fw </icon>
+    <action>ClienteConfigForm#method=onShow</action>
+    <menu>  
+                </menu>
+  </menuitem>
 </menu>

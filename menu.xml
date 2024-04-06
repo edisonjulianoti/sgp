@@ -1,48 +1,109 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu>
-  <menuitem label="Financeiro">
-    <icon>fas:money-bill-alt fa-fw #009688</icon>
+  <menuitem label="Gerenciamento">
+    <icon>fas:tasks fa-fw </icon>
     <menu>
-      <menuitem label="Contas">
-        <icon>fas:arrow-alt-circle-right fa-fw </icon>
-        <action>ContaHeaderList#method=onShow</action>
+      <menuitem label="Clientes">
+        <icon>far:circle fa-fw </icon>
+        <action>ClienteHeaderList#method=onShow</action>
       </menuitem>
-      <menuitem label="Categorias">
-        <icon>fas:arrow-alt-circle-right fa-fw </icon>
-        <action>CategoriaHeaderList#method=onShow</action>
+      <menuitem label="Atendentes">
+        <icon>far:circle fa-fw </icon>
+        <action>AtendenteHeaderList#method=onShow</action>
       </menuitem>
-      <menuitem label="Despesas">
-        <icon>fas:arrow-alt-circle-right fa-fw </icon>
-        <action>DespesaList#method=onShow</action>
+      <menuitem label="Setores">
+        <icon>far:circle fa-fw </icon>
+        <action>SetorHeaderList#method=onShow</action>
       </menuitem>
-      <menuitem label="Receitas">
-        <icon>fas:arrow-alt-circle-right fa-fw </icon>
-        <action>ReceitaList#method=onShow</action>
+      <menuitem label="Links">
+        <icon>far:circle fa-fw </icon>
+        <action>LinkUtilHeaderList#method=onShow</action>
       </menuitem>
-      <menuitem label="Transações">
-        <icon>fas:arrow-alt-circle-right fa-fw </icon>
-        <action>TransacaoList#method=onShow</action>
+      <menuitem label="Notícias">
+        <icon>far:circle fa-fw </icon>
+        <action>NoticiaHeaderList#method=onShow</action>
+      </menuitem>
+      <menuitem label="Páginas de conhecimento">
+        <icon>far:circle fa-fw </icon>
+        <action>PaginaConhecimentoHeaderList#method=onShow</action>
+      </menuitem>
+      <menuitem label="Configurações">
+        <icon>fas:cogs fa-fw </icon>
+        <menu>
+          <menuitem label="Categorias de guia">
+            <icon>far:circle fa-fw </icon>
+            <action>CategoriaGuiaHeaderList#method=onShow</action>
+          </menuitem>
+          <menuitem label="Subcategorias de guia">
+            <icon>far:circle fa-fw </icon>
+            <action>SubcategoriaGuiaHeaderList#method=onShow</action>
+          </menuitem>
+          <menuitem label="Tipos de atendimento">
+            <icon>far:circle fa-fw </icon>
+            <action>TipoAtendimentoHeaderList#method=onShow</action>
+          </menuitem>
+          <menuitem label="Tipos de documento">
+            <icon>far:circle fa-fw </icon>
+            <action>TipoDocumentoHeaderList#method=onShow</action>
+          </menuitem>
+        </menu>
       </menuitem>
     </menu>
   </menuitem>
-  <menuitem label="Organização">
-    <icon>fas:calendar-check fa-fw #673AB7</icon>
+  <menuitem label="Documentos">
+    <icon>far:copy fa-fw </icon>
     <menu>
-      <menuitem label="Planos">
-        <icon>fas:arrow-alt-circle-right fa-fw </icon>
-        <action>PlanoList#method=onShow</action>
+      <menuitem label="Meus documentos">
+        <icon>far:circle fa-fw </icon>
+        <action>DocumentoClienteList#method=onShow</action>
       </menuitem>
-      <menuitem label="Tarefas">
-        <icon>fas:arrow-alt-circle-right fa-fw </icon>
-        <action>TarefaList#method=onShow</action>
+      <menuitem label="Documentos">
+        <icon>far:circle fa-fw </icon>
+        <action>DocumentoList#method=onShow</action>
       </menuitem>
-      <menuitem label="Kanban">
-        <icon>fas:arrow-alt-circle-right fa-fw </icon>
-        <action>KanbanForm#method=onShow</action>
+    </menu>
+  </menuitem>
+  <menuitem label="Guias">
+    <icon>far:file-archive fa-fw </icon>
+    <menu>
+      <menuitem label="Minhas Guias">
+        <icon>far:circle fa-fw </icon>
+        <action>GuiaClienteList#method=onShow</action>
       </menuitem>
-      <menuitem label="Agendamento">
-        <icon>fas:arrow-alt-circle-right fa-fw </icon>
-        <action>AgendamentoCalendarFormView</action>
+      <menuitem label="Guias">
+        <icon>far:circle fa-fw </icon>
+        <action>GuiaList#method=onShow</action>
+      </menuitem>
+    </menu>
+  </menuitem>
+  <menuitem label="Rotinas">
+    <icon>fas:server fa-fw </icon>
+    <menu>
+      <menuitem label="Configurações">
+        <icon>fas:cogs fa-fw </icon>
+        <menu>
+          <menuitem label="Templates de email">
+            <icon>far:circle fa-fw </icon>
+            <action>TemplateEmailHeaderList#method=onShow</action>
+          </menuitem>
+        </menu>
+      </menuitem>
+      <menuitem label="Filas de email">
+        <icon>far:circle fa-fw </icon>
+        <action>FilaEmailHeaderList#method=onShow</action>
+      </menuitem>
+    </menu>
+  </menuitem>
+  <menuitem label="Atendimento">
+    <icon>fas:question-circle fa-fw </icon>
+    <menu>
+      <menuitem label="Meus Atendimentos">
+        <icon>far:circle fa-fw </icon>
+        <action>AtendimentoClienteList#method=onShow</action>
+      </menuitem>
+      <menuitem label="Atendimentos">
+        <icon>far:circle fa-fw </icon>
+        <action>AtendimentoList#method=onShow</action>
       </menuitem>
     </menu>
   </menuitem>

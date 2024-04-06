@@ -1393,7 +1393,7 @@ return TConnection::getDatabaseInfo($unit_database);';
 
     public static function verifyToken($param)
     {
-        if($param['token'] == 'ee2daf78a2c4fa5')
+        if($param['token'] == 'ab42f1ac03c40d4')
         {
             TSession::setValue('database_install_logged', true);
             TScript::create('location.href = "install.php"');

@@ -1,10 +1,10 @@
 <?php 
 return[
     'host' => "",
-    'name' => "bd_sgp_communication",
+    'name' => "app/database/portal_communication.db",
     'user' => "",
     'pass' => "",
-    'type' => "mysql",
+    'type' => "sqlite",
     'prep' => "1",
     'slog' => "SystemSqlLogService"
 ];

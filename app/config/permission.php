@@ -1,10 +1,10 @@
 <?php 
 return[
     'host' => "",
-    'name' => "bd_sgp_permission",
+    'name' => "app/database/portal_permission.db",
     'user' => "",
     'pass' => "",
-    'type' => "mysql",
+    'type' => "sqlite",
     'prep' => "1",
     'slog' => "SystemSqlLogService"
 ];

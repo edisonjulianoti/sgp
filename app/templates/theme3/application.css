@@ -1546,6 +1546,25 @@ hr.tseparator-divisor{
 
 
 
+.builder-template-layout.sidebar-collapse .main-header .logo {
+  background: url('../../../app/images/builderLayoutIcon.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: transparent;
+  border: transparent;
+  width: 42px !important;
+  height: 42px;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+.builder-template-layout:not(.sidebar-collapse) .main-header .logo {
+  background-image: url('../../../app/images/builderLayoutLogo.png');
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  color: transparent;
+}
 
 .time-label-bothsides {
   display: block !important;

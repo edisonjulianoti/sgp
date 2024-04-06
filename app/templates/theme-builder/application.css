@@ -4398,10 +4398,14 @@ ul.nav.nav-pills.nav-stacked li {
 .container-login .card.panel {
     box-shadow: var(--login-form-box-shadow);
 }
+.header-box:before { background-image: url('../../../app/images/builderLayoutIcon.png'); background-position: center; background-size: contain; background-repeat: no-repeat; color: transparent; content: ''; width: calc( 100% - (var(--header-box-padding-horizontal) * 2)); height: calc( 100% - (var(--header-box-padding-vertical) * 2 )); position: absolute; }
 
 
 
+.login-image { background-image: url('../../../app/images/builderDetailLogin.png'); background-position: center;  background-repeat: no-repeat; background-size: contain; color: transparent !important; border: transparent; }
+
+.container-login .panel-login .info-login .login-subtitle { background-image: url('../../../app/images/builderTitleDetailLogin.png'); width: 100%; background-size: contain; background-position: var(--login-panel-left-header-image-position); color: transparent; }
 
 
-
+.logo-name { color: transparent } .simulate-logo { background-image: url('../../../app/images/builderLayoutLogo.png'); background-position: center;  background-repeat: no-repeat; background-size: contain; color: transparent !important; }
 
